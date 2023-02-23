@@ -1,0 +1,130 @@
+{
+    "user":
+                [
+            {
+                "number":"1",
+                "category":"Breakfast",
+                "name":"Omlet-Sandwich",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                "image":"./images/bf1.jpg"
+            },
+            {
+                   "number":"2",
+                   "category":"Breakfast",
+                  "name":"Salad",
+                  "price":"Rs.20",
+                  "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                  "image":"./images/bf2.jpg"
+            },
+            {
+                "number":"3",
+                "category":"Breakfast",
+                "name":"Healthy-Oats",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                "image":"./images/bf3.jpg"
+            },
+
+            {
+                "number":"4",
+                "category":"Breakfast",
+                "name":"Chicken-Burger",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                "image":"./images/bf4.jpg"
+            },
+            {
+                "number":"5",
+                "category":"Lunch",
+                "name":"Fish-Thali",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                "image":"./images/ln1.jpg",
+                "price":"Rs.20"
+            },
+            {
+                   "number":"6",
+                   "category":"Lunch",
+                  "name":"Veg-Thali",
+                  "price":"Rs.20",
+                 "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                 "image":"./images/ln2.jpg"
+            },
+            {
+                "number":"7",
+                "category":"Lunch",
+                "name":"Nan-Panner",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                "image":"./images/ln3.jpg"
+            },
+
+            {
+                "number":"8",
+                "category":"Lunch",
+                "name":"Anna-Sambhar",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                "image":"./images/ln4.jpg"
+            },
+            {
+                "number":"9",
+                "category":"Dinner",
+                "name":"Vegetable-Salad",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                "image":"./images/dn1.jpg"
+            },
+            {
+                   "number":"10",
+                   "category":"Dinner",
+                  "name":"Roti-Pullav",
+                  "price":"Rs.20",
+                 "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                 "image":"./images/dn2.jpg"
+            },
+            {
+                "number":"11",
+                "category":"Dinner",
+                "name":"Tawa-roti and Panner",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took",
+                "image":"./images/dn4.jpg"
+            },
+
+            {
+                "number":"12",
+                "category":"Dinner",
+                "name":"Biryani",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took ",
+                "image":"./images/dn4.jpg"
+            },
+            {
+                "number":"13",
+                "category":"Sweets",
+                "name":"Barfi",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took ",
+                "image":"./images/st1.jpg"
+            },
+            {
+                "number":"14",
+                "category":"Sweets",
+                "name":"Laddu",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took ",
+                "image":"./images/st2.jpg"
+            },
+            {
+                "number":"15",
+                "category":"Sweets",
+                "name":"Lal-mohan",
+                "price":"Rs.20",
+                "description":"When an unknown printer took a galley of type and scrambled it to make a type specimen book unknown printer took ",
+                "image":"./images/st3.jpg"
+            }
+
+               ]
+}
+ 

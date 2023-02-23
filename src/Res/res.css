@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    }
+ 
+#nav-container{
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 100px;
+   
+    border-radius: 20px;
+    position: relative;
+}    
+#head{
+   position: absolute;
+   left:370px;
+   top:70px;
+   margin-top: 30px;
+   margin-bottom: 50px;
+   border-radius: 10px;
+}
+#order{
+    width:700px;
+    height: 60px;
+    margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: 190px;
+   border-radius: 20px;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3BTWJVpg1-w7g5n5mYz7Ol7BeqU7QD_rY7lTAsR9q6lI9hrjALty77j4jTESJ4SbjkSI&usqp=CAU");
+}
+.button{
+   background-color: white; 
+   border: 2px solid white;
+   padding: 7px 12px;
+   color: rgb(19, 87, 89);
+   font-weight: bold;
+   font-style: oblique;
+   font-size: 15px;
+}
+.button:hover{
+    
+    border-bottom: 4px solid rgb(243, 23, 11);
+    
+}
+@keyframes example {
+    0% {color: rgb(241, 13, 13);}
+   
+    50% {color: rgb(240, 8, 108);}
+   
+    75% {color: rgb(44, 30, 240);}
+    100% {color: rgb(236, 22, 22);}
+}
+#lets-order{
+    color: rgb(222, 222, 27) ;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 20px;
+    animation-name: example ;   
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite ;
+    text-shadow: 5px solid black;
+}
+
+/* #tr,#item-name,#item-price,#item-count{
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+#ordering{
+    overflow: auto;
+    position: fixed;
+    width:100%;
+    top:0px;
+    left:1000px;
+}
+#nav-container{
+    width:65%;
+}
+
+#item-name{
+    color: white;
+    background-color: rgb(248, 5, 5);
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+
+#item-count{
+    background-color:  rgb(248, 5, 5);
+    color:white;
+    margin-left: 10px;
+    font-weight: bolder;
+    padding: 2px 8px;
+}
+#ordering-final{
+    padding: 4px 20px;
+    background-color:white;
+    border: 2px solid grey;
+    color:rgb(232, 12, 12);
+     border-radius: 30px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#aaa{
+    text-decoration: none;
+    color:rgb(232, 12, 12);
+    
+}
+#item-total{
+    color: bisque;
+}

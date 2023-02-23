@@ -1,0 +1,304 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#front-header{
+    width:100%;
+    height:100px;
+    position:relative;
+    margin-bottom: 45px;
+}
+#logo{
+   position: absolute;
+   top: 1.9em;
+   right: 65em;
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
+}
+#wriggy{
+   position: absolute;
+   right:9.7em;
+   top :0.3em;
+   transform: translate(50%,-50%);
+   text-transform: uppercase;
+   font-weight: 900;
+   font-family: verdana;
+   color: #f5f5f5;
+   letter-spacing: 10px;
+   text-shadow: 1px 5px 1px #919191,1px 6px 1px #a01818,2px 7px 1px #530707,3px 8px 1px #331279,4px 9px 1px #33ca11,5px 10px 1px #919191,7px 11px 1px #2110ba,8px 12px 1px #f3220b,9px 13px 1px #edf509;
+   font-size: 60px;
+    
+}
+
+#ul{
+    display:flex;
+    gap:16px;
+    float:right;
+    position: absolute;
+    right:1.5em;
+    top:3.3em
+}
+.li{
+    text-decoration: none;
+    color: #f5f5f5;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+.li:hover{
+   text-decoration-color: red;
+}
+.front-content{
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(231, 147, 79);
+    
+}
+#front-body{
+    text-align: center;
+}
+#front-img-and-form{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 30px;
+}
+#form{
+    border-radius: 10px 120px;
+     
+    width: 240px;
+    height: 210px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/09/18/20/25/candy-1678933__480.jpg") ;
+}
+.form-content{
+    color: #f5f5f5;
+    font-style: oblique;
+    font-weight:500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-label{
+    margin-right: 20px;
+    color: rgba(10, 1, 1, 0.89);
+    font-weight: bolder;
+    padding-right: 100px;
+}
+input[type]{
+    border: 2px solid rgba(11, 1, 1, 0.886);
+    padding: 5px;
+}
+input[type]:hover{
+    border: 2px solid red;
+    transform: scaleX(1.1);
+}
+
+.submit{
+    padding: 6px;
+    font-weight: bolder;
+    border: 2px solid black;
+    background-color: #919191;
+}
+.submit1{
+    border-color: red;
+}
+.table{
+    width:200px;
+    height:170px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 2px dotted white ;
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+}
+@keyframes example2 {
+    0%   { left:0px; top:0px;}         /* require relative position */
+    25%  { left:235px; top:0px;}
+    50%  { left:235px; top:210px;}
+    75%  { left:0px; top:210px;}
+    100% { left:0px; top:0px;}
+  }
+ 
+  @keyframes example3 {
+    0%   { left:0px; top:0px;}         /* require relative position */
+    25%  { top:210px; left:0px;}
+    50%  { left:-235px; top:210px;}
+    75%  { left:-235px; top:0px;}
+    100% { left:0px; top:0px;}
+  } 
+
+  @keyframes example4 {
+    0%   { left:0px; top:0px;}         /* require relative position */
+    25%  { top:0px; left:-235px;}
+    50%  { left:-235px; top:-210px;}
+    75%  { left:0px; top:-210px;}
+    100% { left:0px; top:0px;}
+  } 
+
+  @keyframes example5 {
+    0%   { left:0px; top:0px;}         /* require relative position */
+    25%  { top:-210px; left:0;}
+    50%  { left:235px; top:-210px;}
+    75%  { left:235px; top:0px;}
+    100% { left:0px; top:0px;}
+  } 
+
+
+
+
+#img1{
+    position: relative;         /*moving animation require position , for left,top,right,bottom movement of object */
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 5 ;
+    animation-direction: normal;
+}  
+#img2{
+    position: relative;         /*moving animation require position , for left,top,right,bottom movement of object */
+    animation-name: example3;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+}  
+#img4{
+    position: relative;         /*moving animation require position , for left,top,right,bottom movement of object */
+    animation-name: example4;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+}  
+#img3{
+    position: relative;         /*moving animation require position , for left,top,right,bottom movement of object */
+    animation-name: example5;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: normal;
+} 
+
+.front-food{
+    width:170px;
+    height:170px;
+    border-radius: 50%;
+    border: 4px solid rgb(207, 232, 19);
+}
+#fff{
+    width:100%;
+    height: 500px;
+    
+}
+#front-imgs{
+    position: absolute;
+   margin-top: 40px;
+}
+#a1{
+    position: relative;
+    top:0px;
+    left:10px;
+}
+#a2{
+    position: relative;
+    top:200px;
+    left:-170px;
+}
+#a3{
+    position: relative;
+    top:100px;
+    left:-140px;
+}
+#a4{
+    position: relative;
+    top:100px;
+    left:100px;
+}
+#a5{
+    position: relative;
+    top:0px;
+    left:120px;
+}
+#a6{
+    position: relative;
+    top:210px;
+    left:-50px;
+}
+#order-button{
+    margin-right: 40px;
+    padding: 15px;
+    background-color:rgb(207, 232, 19);
+    border: 2px solid green;
+    border-radius: 20px;
+    
+}
+#link{
+    color: green;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+#front-footer{
+    width: 100%;
+    height:300px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    position: relative;
+    margin-top: 10px;
+}
+#logo1{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:20px;
+    left:10px;
+}
+.foot{
+    color:white;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+}
+.foot-content{
+    color: aliceblue;
+    
+}
+.foot-image{
+    width: 25px;
+    height: 25px;
+}
+.foot-div{
+    width:200px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.foot-div1{
+    width:200px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.foot-div2{
+    width:200px;
+    height: 300px;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+#feed-button{
+    margin-top: 6px;
+    background-color: #33ca11;
+    border: 2px solid green;
+    color: black;
+}
